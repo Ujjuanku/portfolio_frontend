@@ -17,9 +17,9 @@ export default function About() {
                     I build production-grade AI systems, scalable ingestion engines, and high-integrity transactional platforms. Specialized in Agentic AI systems, Retrieval-Augmented Generation (RAG), and distributed backend systems.
                 </p>
                 <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-                    <button className="btn btn-primary" onClick={() => alert('Resume download will be available soon.')}>
+                    <a href="/Ujjwal_Jha_Resume.pdf" download="Ujjwal_Jha_Resume.pdf" className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
                         <FileText size={18} /> Download Resume
-                    </button>
+                    </a>
                     <a href="#projects" className="btn btn-outline" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                         View Projects <ArrowRight size={18} />
                     </a>
