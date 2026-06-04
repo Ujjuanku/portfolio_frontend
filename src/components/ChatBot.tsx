@@ -19,7 +19,13 @@ export default function ChatBot() {
         endOfMessagesRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     };
 
+    const isInitialMount = useRef(true);
+
     useEffect(() => {
+        if (isInitialMount.current) {
+            isInitialMount.current = false;
+            return;
+        }
         scrollToBottom();
     }, [messages, isLoading]);
 
