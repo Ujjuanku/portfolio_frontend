@@ -16,7 +16,7 @@ export default function ChatBot() {
     const endOfMessagesRef = useRef<HTMLDivElement>(null);
 
     const scrollToBottom = () => {
-        endOfMessagesRef.current?.scrollIntoView({ behavior: 'smooth' });
+        endOfMessagesRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     };
 
     useEffect(() => {
