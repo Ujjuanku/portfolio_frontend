@@ -5,7 +5,7 @@ const experiences = [
         role: "Jr. AI/ML Engineer",
         company: "Enspirit Technology",
         location: "Hyderabad",
-        duration: "Mar 2026 – May 2026",
+        duration: "Mar 2026 – June 2026",
         points: [
             "Working on Aura – an intelligent automation platform powered by RAG-based architecture for dynamic document understanding and workflow automation.",
             "Designed and implemented end-to-end document ingestion pipelines supporting multiple formats (PDF, DOCX, TXT) with automated chunking, embedding generation, and vector storage.",
