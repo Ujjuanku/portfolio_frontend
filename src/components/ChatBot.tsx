@@ -32,7 +32,7 @@ export default function ChatBot() {
         setIsLoading(true);
 
         try {
-            const response = await fetch(import.meta.env.VITE_API_URL || 'https://portfoliobackend-production-272d.up.railway.app/api/chat', {
+            const response = await fetch(import.meta.env.VITE_API_URL || 'https://portfolio-backend-0eky.onrender.com/api/chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message: userMsg.content })
